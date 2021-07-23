@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "format": "prettier-eslint --write \"**/*.js\" \"!.next/**\" \"!node_modules/**\" \"!out/**\"",
     "lint": "eslint .",
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^3.7.1",
     "next": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
